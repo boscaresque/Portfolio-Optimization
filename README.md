@@ -34,8 +34,7 @@ Optimal weight allocation: [Stock A: __%, Stock B: __%, Stock C: __%, Stock D: _
 
 [Sharpe Ratio Scatterplot](images/sharpe_scatterplot.png)
 
-🚀 Getting Started
-
+## Getting Started
 bashgit clone https://github.com/[your-username]/[repo-name].git
 cd [repo-name]
 pip install -r requirements.txt

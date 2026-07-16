@@ -1,9 +1,9 @@
 # Portfolio-Optimization
 
-##Overview
+## Overview
 This project uses historical stock data to construct a portfolio, evaluate its performance, and find the risk-adjusted optimal weighting between four stocks through large-scale simulation — a core technique in quantitative finance and portfolio management.
 
-##Key Features
+## Key Features
 Portfolio construction from imported historical price data for 4 stocks
 Performance visualization of portfolio value and returns over time
 Risk/return metrics, including daily returns and the Sharpe ratio
@@ -11,13 +11,13 @@ Monte Carlo simulation: 10,000 portfolios generated with randomized asset weight
 Optimization: identifies the weight allocation that maximizes the Sharpe ratio
 Scatterplot visualization of all 10,000 simulated portfolios, highlighting the optimal one
 
-##Tech Stack
+## Tech Stack
 Python
 Jupyter Notebook
 pandas / NumPy — data handling and calculations
 Matplotlib — data visualization
 
-##Methodology
+## Methodology
 Import historical price data for four selected stocks
 Construct a portfolio and calculate daily returns
 Compute portfolio-level metrics, including cumulative returns and the Sharpe ratio
@@ -41,7 +41,7 @@ cd [repo-name]
 pip install -r requirements.txt
 jupyter notebook
 
-##Project Structure
+## Project Structure
 ├── portfolio_optimization.ipynb   # Main analysis notebook
 ├── data/                          # Stock price data
 ├── images/                        # Saved plots
